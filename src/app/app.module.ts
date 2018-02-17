@@ -17,6 +17,7 @@ import { Dialogs } from '@ionic-native/dialogs';
 import { Vibration } from '@ionic-native/vibration';
 import { Globalization } from '@ionic-native/globalization';
 import { LocalNotifications } from '@ionic-native/local-notifications';
+import { MediaCapture } from '@ionic-native/media-capture';
 
 import { TaskCalendarComponent } from '../components/task-calendar/task-calendar'
 import { TaskProgressComponent } from '../components/task-progress/task-progress'
@@ -152,7 +153,8 @@ import { AudioInputComponent } from '../components/audio-input/audio-input';
     TranslatePipe,
     AuthService,
     JwtHelper,
-    NotificationService
+    NotificationService,
+    MediaCapture
   ]
 })
 export class AppModule {

@@ -1,4 +1,8 @@
-<!-- Generated template for the AudioInputComponent component -->
-<div>
-  {{text}}
+
+<div class="audio-card">
+  <div *ngFor="let item of items">
+    <div class="audio-content">
+      <h2>{{item.content}}</h2>
+    </div>
+  </div>
 </div>
